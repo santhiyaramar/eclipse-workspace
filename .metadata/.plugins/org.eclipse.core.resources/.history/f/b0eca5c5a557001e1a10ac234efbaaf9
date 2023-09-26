@@ -1,0 +1,21 @@
+package practice;
+
+public class ExceptionHandling {
+
+	public static void main(String[] args) {
+		 int a=10,b=0;
+		 
+		 int  c;
+	try	 {
+			c=a/b; 
+		 }
+	catch(Exception e)
+	{
+		System.out.println("error occure");
+	}
+		
+		
+	
+	}
+
+}

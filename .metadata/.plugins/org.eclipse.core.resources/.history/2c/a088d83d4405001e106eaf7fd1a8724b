@@ -1,0 +1,18 @@
+package practice;
+
+public class Ifcondition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=51;
+		if(a%3==0 && a%5==0)
+		{
+			System.out.println("multiple of 3 and 5 "+a);
+		}
+		else
+		{
+			System.out.println("not multiple of 3 and 5 "+a);
+		}
+	}
+
+}

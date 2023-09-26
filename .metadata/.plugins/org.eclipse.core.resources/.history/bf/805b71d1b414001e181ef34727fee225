@@ -1,0 +1,29 @@
+package opps;
+public	void eat()
+	{
+		System.out.println("eating");
+	}
+}
+public	class Dog extends Annimal
+{
+	void bark()
+	{
+		System.out.println("barking");
+	}
+}
+
+	
+	
+
+
+		
+	
+
+
+
+
+
+	
+	
+
+

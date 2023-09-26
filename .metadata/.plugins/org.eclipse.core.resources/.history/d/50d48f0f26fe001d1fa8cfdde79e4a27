@@ -1,0 +1,17 @@
+package execise5;
+
+public class Homework{
+	public static void main(String[] args) {
+		//Homework plan = new Homework();
+		 int day = 0 ;
+		 while(day<=5)
+		 {
+			 day =day+1;
+			System.out.println(day);	
+		 }
+	}
+
+
+
+
+}

@@ -1,0 +1,22 @@
+package opps;
+
+public class Annimal {
+public	void eat()
+	{
+		System.out.println("eating");
+	}
+}
+
+	
+
+		
+	
+
+
+
+
+
+	
+	
+
+

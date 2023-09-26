@@ -1,0 +1,256 @@
+package namakal;
+
+public class LoopingDemo1 {
+
+	public static void main(String[] args) {
+		LoopingDemo1 lp= new LoopingDemo1();
+		
+	//	lp.pattren_B();
+	//	lp.pattren_c();
+		lp.pattren_D();
+	//	lp.pattren_E();
+	//	lp.pattren_F();
+	//	lp.pattren_H();
+	//	lp.pattren_I();
+	//	lp.pattren_L();
+	//	lp.pattren_t();
+	//	lp.patern_U();
+	//	lp.patern_O();
+	//	lp.patern_A();
+	}
+	
+		private void patern_A() {
+			for(int row=1;row<=7;row++)
+			{
+				for(int col=1; col<=7;col++)
+				{
+					if(col==1||col==7||row==1||row==7/2+1)
+					{
+						System.out.print("* ");
+					}
+					else
+					{
+						System.out.print("  ");
+					}
+				}
+				System.out.println();
+			}
+		}
+		
+	
+
+		private void patern_O() {
+			for(int row=1;row<=7;row++)
+			{
+				for(int col=1; col<=7;col++)
+				{
+					if(row==1||row==7||col==1||col==7)
+					{
+						System.out.print("* ");
+					}
+					else
+					{
+						System.out.print("  ");
+					}
+				}
+				System.out.println();
+			}
+		}
+		
+	
+
+		private void patern_U() {
+			for(int row=1;row<=7;row++)
+			{
+				for(int col=1; col<=7;col++)
+				{
+					if(col==1||col==7||row==7)
+					{
+						System.out.print("* ");
+					}
+					else
+					{
+						System.out.print("  ");
+					}
+				}
+				System.out.println();
+			}
+		}
+		
+	
+
+		private void pattren_t()
+		{
+			for(int row=1;row<=7;row++)
+			{
+				for(int col=1; col<=7;col++)
+				{
+					if(row==1||col==7/2+1)
+					{
+						System.out.print("* ");
+					}
+					else
+					{
+						System.out.print("  ");
+					}
+				}
+				System.out.println();
+			}
+		}
+
+	private void pattren_L() {
+		for(int row=1;row<=7;row++)
+		{
+			for(int col=1;col<=7;col++)
+			{
+				if(col==1||row==7)
+				{
+				System.out.print("* ");
+				}
+				else
+				{
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+		
+	}
+
+	private void pattren_I() {
+		for(int row=1;row<=7;row++)
+		{
+			for(int col=1;col<=7;col++)
+			{
+				if(row==1||row==7||col==7/2+1)
+				{
+				System.out.print("* ");
+				}
+				else
+				{
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+		
+	}
+
+	private void pattren_H() {
+		for(int row=1;row<=7;row++)
+		{
+			for(int col=1;col<=7;col++)
+			{
+				if(col==1||col==7||row==7/2+1)
+				{
+				System.out.print("* ");
+				}
+				else
+				{
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+		
+	}
+
+	private void pattren_F() {
+		for(int row=1;row<=7;row++)
+		{
+			for(int col=1;col<=7;col++)
+			{
+				if(row==1||col==1||row==7/2+1)
+				{
+				System.out.print("* ");
+				}
+				else
+				{
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+			
+		
+	}
+
+	private void pattren_E() {
+		for(int row=1;row<=7;row++)
+		{
+			for(int col=1;col<=7;col++)
+			{
+				if(row==1||row==7||col==1||row==7/2+1)
+				{
+				System.out.print("* ");
+				}
+				else
+				{
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+		
+	}
+
+	private void pattren_D() {
+		for(int row=1;row<=7;row++)
+		{
+			for(int col=1;col<=7;col++)
+			{
+				if(row==1||row==7||col==2||col==7)
+				{
+					System.out.print("* ");
+				}
+				else
+				{
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+		
+	}
+
+	private void pattren_c() {
+		for(int row=1;row<=7;row++)
+		{
+			for(int col=1;col<=7;col++)
+			{
+				if(row==1||row==7||col==1)
+				{
+					System.out.print("* ");
+				}
+				else
+				{
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+		
+	}
+
+	private void pattren_B() {
+		for(int row=1;row<=7;row++)
+		{
+			for(int col=1; col<=7;col++)
+			{
+				if(row==1||row==7||col==1||col==7||row==7/2+1)
+				{
+					System.out.print("* ");
+				}
+				else
+				{
+					
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+		
+	}
+}
+
+

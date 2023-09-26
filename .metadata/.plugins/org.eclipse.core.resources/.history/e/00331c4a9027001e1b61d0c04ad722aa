@@ -1,0 +1,27 @@
+package execise6;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+	StringDemo str=new StringDemo();
+	int[] ar= {10,8,5,1};
+	str.Find_biggest();
+	
+
+	}
+
+	private void Find_biggest() {
+	    for(int i=0; i<str.length-1; i++)
+	    {
+	      if(str[i]>str[i+1])
+	      {
+	        int temp = str[i];
+	        str[i] = str[i+1];
+	        str[i+1] = temp;
+	      }
+	    }
+	    System.out.println("Biggest is "+ str[str.length-1]);
+	  }
+	}
+
+}

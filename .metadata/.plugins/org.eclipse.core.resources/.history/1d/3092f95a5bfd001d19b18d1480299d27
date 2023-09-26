@@ -1,0 +1,17 @@
+package execise3;
+
+public class Test 
+{
+public static void main(String[]args)
+{
+	int i = 10;
+	int j = 50;
+	if(i==10)
+	{System.out.println(j);
+		j=20;
+		System.out.println(j);
+	}
+	System.out.println(j);
+		
+}
+}

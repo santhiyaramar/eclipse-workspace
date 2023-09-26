@@ -1,0 +1,19 @@
+package execise3;
+
+public class Ipl2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	int month = 5; //AssignmentOperater
+	int day = 1;
+	while(month==5)
+	{
+		System.out.println(" go to play day"+day);
+		day=day+1;
+		if(day>31)
+		{
+			month = month+1;
+		}
+	}
+}
+}

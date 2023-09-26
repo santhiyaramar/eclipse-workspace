@@ -1,0 +1,11 @@
+package opps;
+
+public class Babydog extends Annimal{
+	void weep()
+	{
+		 System.out.println("weeping");
+
+	
+	}
+
+}

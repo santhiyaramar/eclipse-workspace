@@ -1,0 +1,26 @@
+package may26;
+
+public class IPL
+{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		IPL ipl = new IPL();
+		int mi = 200, gt = 190;
+		ipl.play_qualifier(mi,gt);
+		
+	}
+	private void play_qualifier(int team1, int team2) 
+	{
+	    // TODO Auto-generated method stub
+	    if(team1>team2)
+	    {
+	      System.out.println("MI Enters finals");
+	    }
+	    else
+	    {
+	      System.out.println("GT enters finals");
+	    }
+	    
+	 }
+}

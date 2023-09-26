@@ -1,0 +1,21 @@
+package execise4;
+
+public class MyThread extends Thread {
+
+		public void run()
+		  {
+			try {
+				for(int no=1; no<=5; no++)
+			    {
+			      System.out.println(no + " MyThread"); 
+			    }
+				Thread.sleep(5000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		  
+		  }
+	}
+
+

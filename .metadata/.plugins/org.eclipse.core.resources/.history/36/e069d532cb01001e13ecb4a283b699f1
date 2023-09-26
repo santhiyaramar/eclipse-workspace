@@ -1,0 +1,20 @@
+package execise7;
+
+public class Looping3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Looping3 looping = new Looping3();
+		looping.print_reverse(1234);
+	}
+
+	private void print_reverse(int cake) {
+		// TODO Auto-generated method stub
+		while(cake>0)
+		{
+			System.out.println( cake%10);
+			cake= cake/10;
+		}
+	}
+
+}

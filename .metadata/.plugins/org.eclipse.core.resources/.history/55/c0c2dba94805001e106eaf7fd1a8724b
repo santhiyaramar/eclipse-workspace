@@ -1,0 +1,19 @@
+package practice;
+
+public class Ifcondition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=1;
+		int sum=0;
+		while(a<=10)
+		{
+			System.out.println("summing:" + sum);
+			sum = sum+a;
+			System.out.println("summing:" + sum);
+			a++;
+		}
+		//System.out.println("summing:" + sum);
+	}
+
+}

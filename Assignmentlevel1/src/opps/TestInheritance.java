@@ -1,0 +1,15 @@
+package opps;
+
+public class TestInheritance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Babydog d=new Babydog();
+		d.bark();
+		d.eat();
+		d.weep();
+	}
+
+	}
+
+
